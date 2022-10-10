@@ -1,5 +1,6 @@
 # Simple usage:
 
+```
 <html>
     <body>
         <!-- # -->
@@ -20,12 +21,15 @@
         </script>
     </body>
 </html>
+```
 
 # Usage with image tag
 
 If using an img instead of canvas, the code will create a hidden canvas, fill the context with values from the matrix, convert the canvas to dataURL, then replace the src attribute of the img with this URL, there will be no change in the code, just replace canvas with img as follows: 
 
+```
 <img id="target" src="">
+```
 
 # Notes:
 
