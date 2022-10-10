@@ -16,7 +16,7 @@ class QR {
 		/**/
 		this.padding = unit;
 		/**/
-	    this.mode = "BYTE_MODE"; // code only supports byte mode!
+	    this.mode = "BYTE_MODE"; // code only supports byte mode
 	    /**/
 		this.mask = "0"; // code only supports mask0
 		/**/
