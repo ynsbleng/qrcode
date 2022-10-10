@@ -37,7 +37,7 @@ If you want to understand this code, keep in mind that everything here is a dire
 
 https://www.thonky.com/qr-code-tutorial/
 
-The only thing I struggled with is the Reed Solomon algorithm, for some reason the suggested method throws an error for specific messages, especially when multiple terms are negated with the XOR operator, the tutorial suggests to remove the leading term 0, but it makes me a bit confused whether to remove the others or not, I have tried everything so far, maybe I have not implemented the code correctly , anyway I ended up translating the python code from this website:
+The only thing I struggled with is the Reed Solomon algorithm, for some reason the suggested method throws an error for specific messages, especially when multiple terms are negated with the XOR operator, the tutorial suggests to remove the leading term 0, but it makes me a bit confused whether to remove the others or not, I have tried everything so far, maybe I have not implemented the code correctly, anyway I ended up translating the python code from this website:
 
 https://en.wikiversity.org/wiki/Reed%E2%80%93Solomon_codes_for_coders
 
