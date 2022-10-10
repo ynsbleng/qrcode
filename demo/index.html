@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <!-- # -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- # -->
+        <link href="css/style.css" rel="stylesheet">
+        <!-- # -->
+    </head>
+    <body>
+        <!-- # -->
+        <img id="target"><!-- <img id="target" src=""> -->
+        <!-- # -->
+        <div class="form-container">
+            <!-- # -->
+            <div class="mb-3">
+                <!-- # -->
+                <div class="row">
+                    <div class="col-auto"><label for="foreground" class="form-label">Foreground:</label><input type="color" class="form-control form-control-color" id="foreground" value="#000000" input="update()"></div>
+                    <div class="col-auto"><label for="background" class="form-label">Background:</label><input type="color" class="form-control form-control-color" id="background" value="#FFFFFF" input="update()"></div>
+                </div>
+            </div>
+            <!-- # -->
+            <div class="mb-3">
+                <!-- # -->
+                <label for="text" class="form-label">Text:</label>
+                <!-- # -->
+                <input type="text" class="form-control" id="text" disabled>
+                <!-- # -->
+            </div>
+            <!-- # -->
+            <div class="mb-3">
+                <!-- # -->
+                <label for="length" class="form-label">Length:</label>
+                <!-- # -->
+                <input type="text" class="form-control mb-3" id="length" placeholder="20" value="20">
+                <!-- # -->
+            </div>
+            <!-- # -->
+            <div class="mb-3">
+                <!-- # -->
+                <label for="correction" class="form-label">Correction Level:</label>
+                <!-- # -->
+                <select id="correction" class="form-select" aria-label="correction">
+                    <option value="L">L</option>
+                    <option value="M">M</option>
+                    <option value="Q">Q</option>
+                    <option value="H" selected>H</option>
+                </select>
+                <!-- # -->
+            </div>
+            <!-- # -->
+            <div class="form-check mb-3">
+                <!-- # -->
+                <input class="form-check-input" type="checkbox" value="" id="randomize" checked>
+                <!-- # -->
+                <label class="form-check-label" for="randomize">Randomize Text</label>
+                <!-- # -->
+            </div>
+            <!-- # -->
+            <button type="button" class="btn btn-primary btn-block" onclick="update()">UPDATE</button>
+            <!-- # -->
+            <button type="button" class="btn btn-dark btn-block" onclick="download()">DOWNLOAD</button>
+            <!-- # -->
+        </div>
+        <!-- # -->
+        <script src="../qr.min.js"></script>
+        <!-- # -->
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <!-- # -->
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <!-- # -->
+        <script src="js/script.js"></script>
+        <!-- # -->
+    </body>
+</html>

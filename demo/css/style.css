@@ -1,0 +1,52 @@
+/**/
+body {
+    /**/
+    margin: 0;
+    /**/
+    background-color: #F2F2F2 !important;
+    /**/
+    font-family: sans-serif;
+    /**/
+}
+/**/
+canvas {
+    /**/
+    position: fixed;
+    /**/
+    top: 50%;
+    /**/
+    left: 50%;
+    /**/
+    transform: translate(-50%, -50%);
+    /**/
+}
+/**/
+img {
+    /**/
+    position: fixed;
+    /**/
+    top: 50%;
+    /**/
+    left: 50%;
+    /**/
+    transform: translate(-50%, -50%);
+    /**/
+    width: 150px;
+    /**/
+    height: 150px;
+    /**/
+}
+/**/
+input[type="color"]{
+    /**/
+    height: 40px !important;
+    /**/
+}
+/**/
+.form-container {
+    /**/
+    padding: 20px;
+    /**/
+    width: 300px;
+    /**/
+}
